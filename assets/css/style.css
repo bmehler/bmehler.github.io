@@ -1,0 +1,272 @@
+/**
+Base settings
+*/
+
+body {
+  background-color: #6f81a5;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 14px;
+}
+
+/**
+Backgrounds
+*/
+
+.first-article {
+  background-color: #a2bdf1;  
+}
+
+.second-article {
+  background-color: #f2f2f2;  
+}
+
+.third-article {
+  background-color: #a2bdf1;  
+}
+
+.fourth-article {
+  background-color: #f2f2f2;  
+}
+
+.bottom-bar {
+  height: 0.5em;
+  background-color: #272727; 
+}
+
+/**
+Images
+*/
+
+.intro-image, .smartphone-image, .tablet-image, .laptop-image, .desktop-image {
+  width: 100%;
+}
+
+/**
+Heading elements (max-width : 992px)
+*/
+
+h1 { 
+  color: #484848;
+  padding-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+/**
+Heading elements (min-width : 992px)
+*/
+
+@media only screen and (min-width : 992px) {
+h2 {
+  font-size: 2.225em;
+}
+}
+
+/**
+Heading elements (min-width : 1200px)
+*/
+
+@media only screen and (min-width : 1200px) {
+h1 {  
+  font-size: 4.25em;  
+}
+
+h2 {
+  font-size: 3em;
+}
+}
+
+/**
+Lead body (max-width : 992px)
+*/
+
+.lead {
+  color: #505050;
+}
+
+/**
+Lead body (min-width : 1200px)
+*/
+
+@media only screen and (min-width : 1200px) {
+.lead {
+  font-size: 2.5em;  
+}
+}
+
+/**
+Navbar (max-width : 992px)
+*/
+
+.navbar-header {
+  padding: 0.1em 0em;
+}
+
+.navbar-inverse {
+  background-color: #444f65;
+  border-color: transparent;  
+}
+
+.navbar-brand {  
+  font-size: 2.1em;  
+}
+
+.navbar-brand_name { 
+  color: #fff;
+  font-weight: 700;
+}
+
+.navbar-brand_created { 
+  color: #a2bdf1;
+  font-weight: 400;  
+}
+
+/**
+Navbar (min-width : 992px) 
+*/
+
+@media only screen and (min-width : 992px) {
+.navbar-header {
+  padding: 0.5em 0em;
+}
+
+.navbar-brand {  
+  font-size: 2.5em;   
+}
+
+.top-nav-collapse {
+  background-color: #d9d9d9;
+  border-color: transparent;  
+}
+
+.top-nav-collapse .navbar-brand_name {
+  color: #9b1414;
+}
+
+.top-nav-collapse .navbar-brand_created {
+  color: #444f65;
+}
+}
+
+/**
+Navbar (min-width : 1200px)
+*/
+
+@media only screen and (min-width : 1200px) {
+.navbar { 
+  padding: 1.75em 0em;
+  transition: all 0.4s ease 0s;
+}
+
+.navbar-brand {  
+  font-size: 3em;   
+}
+
+.top-nav-collapse {
+  background-color: #d9d9d9;
+  border-color: transparent;
+  padding: 1em 0em;
+}
+
+.top-nav-collapse .navbar-brand_name {
+  color: #9b1414;
+}
+
+.top-nav-collapse .navbar-brand_created {
+  color: #444f65;  
+}
+}
+
+/**
+Intro (max-width : 992px)
+*/
+
+.intro { 
+  padding: 3.5em 0em 0em;
+  text-align: center;
+}
+
+.intro-article, .first-article, .second-article, .third-article, .fourth-article  {
+  padding: 3em 0em;
+  text-align: center;   
+}
+
+.intro-article {
+  background-color: #fff;    
+}
+
+/**
+Intro (min-width : 992px)
+*/
+
+@media only screen and (min-width : 992px) {
+.intro-article {
+  padding: 3em 0em;  
+}
+}
+
+/**
+Intro (min-width : 1200px)
+*/
+
+@media only screen and (min-width : 1200px) {
+.intro { 
+  padding: 5.5em 0em 0em;  
+}
+
+.intro-article {  
+  padding: 5em 0em;  
+}
+}
+
+/**
+Message (max-width : 992px)
+*/
+
+.message {  
+  background-color: #f7f7f7;
+  color: #bdbdbd;  
+  padding: 5em 0em;
+  text-align: center; 
+}
+
+/**
+Email (max-width : 992px)
+*/
+
+.message .email {   
+  color: #9b1414; 
+}
+
+/**
+Copyright (max-width : 992px)
+*/
+
+.copyright {
+  background-color: #40474f;
+  color: #272727; 
+  font-size: 1.5em; 
+  padding: 1.5em 0em;
+}
+
+/**
+Copyright (min-width : 992px)
+*/
+
+@media only screen and (min-width : 992px) {
+.copyright {  
+  font-size: 1.875em; 
+}
+}
+
+/**
+Copyright (min-width : 1200px)
+*/
+
+@media only screen and (min-width : 1200px) {
+.copyright { 
+  font-size: 2.125em;   
+}
+}
