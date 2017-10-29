@@ -13,8 +13,7 @@ body {
 	overflow: hidden;
 }
 #video_pattern {
-  /*background-image: url(./pattern.png);*/
-  background-color: black;
+  background-image: url(./pattern.png);
 	position: fixed;
 	opacity: 0.5;
 	left: 0px;
@@ -24,68 +23,133 @@ body {
 	z-index: -1;
 }
 #wrapper {
-	/*background: rgba(255,255,255,.7);*/
-	width: 90%;
-	min-height: 500px;
-	margin: auto 10px;
-  padding: 20px;
-  color: #fff;
+	color: #fff;
 }
 
-.backpack.dropzone {
-  font-family: 'SF UI Display', 'Segoe UI';
-  font-size: 15px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 250px;
-  height: 150px;
-  font-weight: lighter;
-  color: white;
-  will-change: right;
-  z-index: 2147483647;
-  bottom: 20%;
-  background: #333;
-  position: fixed;
-  user-select: none;
-  transition: left .5s, right .5s;
-  right: 0px; }
-  .backpack.dropzone .animation {
-    height: 80px;
-    width: 250px;
-    background: url("https://sxt.cdn.skype.com/assets/dropzone/hoverstate.png") left center; }
-  .backpack.dropzone .title::before {
-    content: 'Save to'; }
-  .backpack.dropzone.closed {
-    right: -250px; }
-  .backpack.dropzone.hover .animation {
-    animation: sxt-play-anim-hover 0.91s steps(21);
-    animation-fill-mode: forwards;
-    background: url("https://sxt.cdn.skype.com/assets/dropzone/hoverstate.png") left center; }
+@media(max-width:767px){
 
-@keyframes sxt-play-anim-hover {
-  from {
-    background-position: 0px; }
-  to {
-    background-position: -5250px; } }
-  .backpack.dropzone.saving .title::before {
-    content: 'Saving to'; }
-  .backpack.dropzone.saving .animation {
-    background: url("https://sxt.cdn.skype.com/assets/dropzone/saving_loop.png") left center;
-    animation: sxt-play-anim-saving steps(59) 2.46s infinite; }
+	.logo-heading {
+		position: absolute;
+		width: 250px;
+		height: 150px;
+		top: 50%;
+		left: 50%;
+		margin-top: -75px;
+		margin-left: -100px;
+	}
 
-@keyframes sxt-play-anim-saving {
-  100% {
-    background-position: -14750px; } }
-  .backpack.dropzone.saved .title::before {
-    content: 'Saved to'; }
-  .backpack.dropzone.saved .animation {
-    background: url("https://sxt.cdn.skype.com/assets/dropzone/saved.png") left center;
-    animation: sxt-play-anim-saved steps(20) 0.83s forwards; }
+	.logo {
+		width: 200px;
+	}
 
-@keyframes sxt-play-anim-saved {
-  100% {
-    background-position: -5000px; } }
+	.company {
+		font-family: 'PT Sans Narrow', sans-serif;
+		font-size: 3rem;
+		margin-left: 20px;
+	}
 
+	.slogan {
+		font-family: 'PT Sans Narrow', sans-serif;
+		font-size: 2rem;
+		margin-left: -10px;
+	}
+
+	.phone {
+		font-family: 'PT Sans Narrow', sans-serif;
+		font-size: 2rem;
+		margin-left: 20px;
+	}
+
+	.email {
+		font-family: 'PT Sans Narrow', sans-serif;
+		font-size: 2rem;
+		margin-left: -15px;
+	}
+
+}
+
+@media(min-width:768px){
+
+	.logo-heading {
+		position: absolute;
+		width: 300px;
+		height: 150px;
+		top: 50%;
+		left: 50%;
+		margin-top: -75px;
+		margin-left: -150px;
+	}
+
+	.logo {
+		width: 300px;
+	}
+
+	.company {
+		font-family: 'PT Sans Narrow', sans-serif;
+		font-size: 4rem;
+		margin-left: 50px;
+	}
+
+	.slogan {
+		font-family: 'PT Sans Narrow', sans-serif;
+		font-size: 2.8rem;
+		margin-left: 0px;
+	}
+
+	.phone {
+		font-family: 'PT Sans Narrow', sans-serif;
+		font-size: 2.8rem;
+		margin-left: 50px;
+	}
+
+	.email {
+		font-family: 'PT Sans Narrow', sans-serif;
+		font-size: 2.8rem;
+		margin-left: 0px;
+	}
+
+}
+
+@media(min-width:992px){}
+
+@media(min-width:1200px){
+
+	.logo-heading {
+		position: absolute;
+		width: 500px;
+		height: 150px;
+		top: 50%;
+		left: 50%;
+		margin-top: -150px;
+		margin-left: -225px;
+	}
+
+	.logo {
+		width: 500px;
+	}
+
+	.company {
+		font-family: 'PT Sans Narrow', sans-serif;
+		font-size: 6rem;
+		margin-left: 90px;
+	}
+
+	.slogan {
+		font-family: 'PT Sans Narrow', sans-serif;
+		font-size: 4rem;
+		margin-left: 35px;
+	}
+
+	.phone {
+		font-family: 'PT Sans Narrow', sans-serif;
+		font-size: 3.5rem;
+		margin-left: 110px;
+	}
+
+	.email {
+		font-family: 'PT Sans Narrow', sans-serif;
+		font-size: 3.5rem;
+		margin-left: 55px;
+	}
+
+}
