@@ -1,0 +1,65 @@
+{
+    "text": "Wir haften nicht für Schäden, die durch die Nutzung dieses Internetangebots entstehen. Dieser Haftungsausschluss gilt nicht, soweit die Vorschriften des § des Bürgerlichen Gesetzbuches (Haftung bei Amtspflichtverletzung) einschlägig sind. Für etwaige Schäden, die beim Aufrufen oder Herunterladen von Daten durch Schadsoftware oder der Installation oder Nutzung von dieser verursacht werden, wird nicht gehaftet.",
+    "button": [
+        {
+            "position": "48",
+            "mandatory": "1",
+            "button_type": "button",
+            "button_color": "danger",
+            "button_label": "Software",
+            "button_name": "software",
+            "button_class": "software",
+            "button_id": "software-1",
+            "data_value": "SAP HCM",
+            "data_name": "Software",
+            "data_type": "Konstante",
+            "data_min": "1",
+            "data_max": "1"
+        },
+        {
+            "position": "21",
+            "mandatory": "1",
+            "button_type": "button",
+            "button_color": "danger",
+            "button_label": "Paragraphen",
+            "button_name": "paragraph",
+            "button_class": "paragraph",
+            "button_id": "paragraph-839",
+            "data_value": "839",
+            "data_name": "Paragraphen",
+            "data_type": "Konstante",
+            "data_min": "1",
+            "data_max": "3"
+        },
+        {
+            "position": "0",
+            "mandatory": "0",
+            "button_type": "button",
+            "button_color": "info",
+            "button_label": "Dienststelle",
+            "button_name": "dienstelle",
+            "button_class": "dienstelle",
+            "button_id": "dienststell-orga",
+            "data_value": "OrgaIT",
+            "data_name": "Dienststelle",
+            "data_type": "Variable",
+            "data_min": "0",
+            "data_max": "3"
+        },
+        {
+            "position": "0",
+            "mandatory": "0",
+            "button_type": "button",
+            "button_color": "success",
+            "button_label": "Telefonnummer",
+            "button_name": "telefonnummer",
+            "button_class": "telefonnummer",
+            "button_id": "telefonnummer_id",
+            "data_value": "OrgaIT",
+            "data_name": "Telefonnummer",
+            "data_type": "Variable",
+            "data_min": "0",
+            "data_max": "3"
+        }
+    ]
+  }
